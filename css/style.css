@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffcc5c;
+  font-family: "Knewave", cursive;
+  height: 60px;
+}
+
+.logo {
+  color: rgb(14, 7, 114);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: rgb(14, 7, 114);
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #ffeead;
+}
+
+/* main img style */
+.main-img {
+  margin-left: 0px;
+  width: 1349px;
+  margin-bottom: 50px;
+}
+
+/*Categories */
+section ul li {
+  margin: 30px;
+  margin-bottom: 70px;
+  margin-left: 120px;
+  display: inline;
+}
+/* text style */
+section p {
+  height: 300px;
+  width: 500px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  color: rgb(14, 7, 114);
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+}
+
+/* the image next to text */
+#img2-ul {
+  display: flex;
+}
+
+.img2-li {
+  width: 500px;
+}
+
+footer {
+  background-color: #ffcc5c;
+  height: 150px;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  /* any paragraph*/
+/* font-family: 'Caveat', cursive; */
+/* header font 
+  font-family: 'Knewave', cursive;
+}
+.header {
+  height: 100px;
+  background-color: #ffcc5c;
+  padding:0 20px;
+  color: black;
+
+}
+.logo{
+  line-height: 100px;
+  float: left;
+  text-transform: uppercase;
+
+}
+.menu{
+  float: right;
+  line-height: 100px;
+
+}
+.menu a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+ 
+}
+.show-menu-btn , .hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  
+
+}
+
+.show-menu-btn{
+  float: left;
+ 
+}
+.show-menu-btn i{
+  
+  line-height: 100px;
+}
+
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: 	#ffeead;
+}
+
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+
+} */
