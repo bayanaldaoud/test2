@@ -14,3 +14,10 @@
 
 // }
 // navSlide();
+
+// let namey=prompt('Hello!please enter your Name :)');
+// function hello(){
+//     alert( 'This is your chance '+namey + ' to be creative, WELCOME :D' );
+// }
+
+// hello();
